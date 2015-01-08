@@ -1,0 +1,1 @@
+<?php/*|[{"connectionname":"Sample Connection One","server":"localhost","databasename":"DatabaseOne","user":"root","password":""},{"connectionname":"Sample Connection","server":"localhost","databasename":"dbname","user":"username","password":"save"}]|*/?>

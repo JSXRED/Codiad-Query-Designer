@@ -1,0 +1,13 @@
+[{
+    "author": "JSX.RED",
+    "version": "1",
+    "name": "Codiad Database Query Designer",
+    "url": "https://github.com/JSXRED/Codiad-Query-Designer",
+    "rightbar": [
+        {
+            "action": "codiad.JSXDQD.open();",
+            "icon": "icon-database",
+            "title": "Query Designer"
+        }
+    ]
+}]

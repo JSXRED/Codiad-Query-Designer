@@ -1,0 +1,61 @@
+.project-list-title{
+	position: static !important;
+}
+
+.dqd-left{
+	width: 20%;
+	float: left;
+}
+
+.dqd-mid {
+	width: 12px;
+    height: 100%;
+    z-index: 99999;
+    margin: 0;
+    padding: 0;
+    background: #474747;
+    box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, .9);
+    float: left;
+}
+
+
+.dqd-right{
+	width: 10%;
+	float: left;
+}
+
+#editor { 
+    position: relative;
+    height: 100px;
+}
+
+.dqd-spacer{
+	padding: 15px;
+	overflow-y: auto;
+	width:100%;
+}
+
+.dqd-iconfix{
+	line-height: 1.5;
+}
+
+#dbobjs{
+	overflow-y: auto;
+}
+
+.dqd-columnobjs li
+{
+	padding-left: 30px;
+}
+
+.dqd-columnobjs {
+		display: none;
+}
+
+.dqd-darker{
+	 opacity: 0.5;
+}
+
+.dqd-result{
+	overflow: auto;
+}
