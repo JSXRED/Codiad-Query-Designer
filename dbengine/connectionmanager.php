@@ -16,7 +16,11 @@ Share knowledge. Share emotions. Share fun.
 
 
 require_once('../../../common.php');
-require_once(dirname(__FILE__).'/DBConnection.mysql.php');
+if(extension_loaded("mysql")) {
+  require_once(dirname(__FILE__).'/DBConnection.mysql.php');
+} elseif(extension_loaded("mysqli")) {
+  require_once(dirname(__FILE__).'/DBConnection.mysqli.php');
+}
 checkSession();
 
 class CM{
